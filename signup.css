@@ -1,0 +1,72 @@
+h1{
+    margin-bottom: 8%;
+    text-align: center;
+    font-family: "fredoka one",cursive;
+    color: brown;
+    letter-spacing: o.1cm;
+}
+
+p{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px black;
+    line-height: 0,1rem;
+}
+
+p span{
+    background: #fff;
+    padding: 0 10px;
+}
+
+input{
+    margin-bottom: 3%;
+}
+
+input:last-of-type{
+    margin-bottom: 0;
+}
+
+input, button{
+    padding: 3%;
+    width: 100%;
+}
+
+.login-container{
+    background-color: white;
+    padding: 7%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 40vw;
+    margin: auto;
+    height: 70vh;
+    margin-top: 15vh;
+}
+
+#submit, #create-acc-btn{
+    background-color: #ab1449;
+    color: white;
+    border: none;
+    margin-top: 5%;
+}
+
+button:hover{
+cursor: pointer;
+opacity: 0.8;
+transition: 0.3%;
+}
+#sign-up{
+    border: none;
+}
+
+#create-acc{
+    display: none;
+    padding-right: 10px;
+}
+
+#return-btn{
+    background: none;
+    color: grey;
+    text-decoration: underline;
+    border: none;
+    margin-top: 3%;
+}
