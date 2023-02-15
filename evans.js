@@ -5,7 +5,7 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js";
-console.log("Hello world")
+
 const firebaseConfig = {
   apiKey: "AIzaSyCYBeU9GaRUxBTO2RY26KA63RDD8TrMzeI",
   authDomain: "compassionke-e3f65.firebaseapp.com",
@@ -46,7 +46,6 @@ var email,
   confirmSignUpPassword;
 
 createacctbtn.addEventListener("click", function () {
-  console.log("hello")
   var isVarified = true;
 
   signupEmail = signupEmailIn.value;
